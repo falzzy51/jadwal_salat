@@ -12,7 +12,7 @@
     </center>
 
     <?php
-    $api_url = 'https://api.myquran.com/v2/sholat/kota/semua';
+    $api_url = 'https://api.myquran.com/v2/sholat/jadwal/:kota/:date';
 
     //membaca JSON dari url
     $kota = file_get_contents($api_url);
